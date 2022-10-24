@@ -6,6 +6,16 @@ body{
 font-family: 'Poppins', sans-serif;
 background-color:  #F3F1FF;;
 }
+
+#first{
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+    border-color: blue;
+    border-style: solid;
+}
+   
+
 main{
     display: flex;
     flex-direction: column;
@@ -17,6 +27,7 @@ main{
     margin-top: 21px;
     padding: 30px;
     border-radius: 5px;
+    border: 1px solid blue;
 }
 hr{
     border: 1px solid #D1D1D1;
